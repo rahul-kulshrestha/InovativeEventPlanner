@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<Home/>}>
             
           </Route>
-          <Route path="/detial" element={<DestinationDetail/>}/>
+          <Route path="/destination" element={<DestinationDetail/>}/>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="*" element={<h1>404 - Page Not Found</h1>} />
